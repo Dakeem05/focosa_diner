@@ -2,28 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(99.69deg, #0F1141 1.35%, #272CA7 139.25%);
+}
+
+@layer components {
+  .card-bg {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.06) -5.46%,
+      rgba(255, 255, 255, 0.21) 46.26%,
+      rgba(255, 255, 255, 0.1) 104.59%
+    );
+  }
+
+  .bg-place{
+    background: linear-gradient(34.08deg, #0f1141 28.37%, #272ca7 116.57%);
+  }
+
+  .intro-card-bg {
+    background: linear-gradient(309.79deg, #16a0ff 16.4%, #272ca7 99.83%);
+  }
+
+  .topic-border {
+    background: linear-gradient(
+      90deg,
+      #16a0ff 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    border-radius: 8px;
+  }
+
+  .info-card-border {
+    background: linear-gradient(
+      90deg,
+      #16a0ff 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    border-radius: 20px;
+  }
+
+  .topic-bg {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.06) -5.46%,
+      rgba(255, 255, 255, 0.21) 46.26%,
+      rgba(255, 255, 255, 0.1) 104.59%
+    );
+  }
 }
 
 @layer utilities {
