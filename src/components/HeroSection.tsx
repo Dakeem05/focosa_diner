@@ -5,13 +5,13 @@ export default function HeroSection() {
     <section className="md:mb-40 mb-20">
       <div className="flex gap-[60px] md:gap-0 flex-col md:flex-row items-center justify-between">
         <div className="">
-          <h1 className="text-5xl md:text-7xl mb-3">
+          <h1 className="text-5xl tracking-wider md:text-7xl mb-3">
             A Night to <br className="md:hidden" />
             Decode
             <br />
             the Future!
           </h1>
-          <p className="md:text-xl text-sm ">
+          <p className="md:text-xl text-sm tracking-wider ">
             Welcome to Decoding the Future, the largest gathering{" "}
             <br className="hidden md:block" />
             of computer science students <br className="hidden md:block" />

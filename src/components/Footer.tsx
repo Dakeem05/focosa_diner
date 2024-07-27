@@ -10,8 +10,8 @@ export default function Footer() {
           <div className="flex justify-between items-center">
             <div className="md:text-2xl text-lg">
               <p className="md:mb-7 mb-5">
-                For any questions or inquiries, please don&apos;t hesitate
-                <br />
+                For any questions or inquiries, please don&apos;t hesitate {" "}
+                <br className="hidden md:block" />
                 to contact us through the following channels:
               </p>
 

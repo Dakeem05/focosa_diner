@@ -5,7 +5,7 @@ export default function IntroCard() {
   return (
     <section className="md:mb-40 mb-20">
       <div className="intro-card-bg rounded-3xl overflow-hidden">
-        <div className="md:px-24 px-11 pt-11 md:pt-24">
+        <div className="md:px-24 px-9 pt-11 md:pt-24">
           <p className="text-3xl md:text-5xl">
             Join us as we celebrate <br className="hidden md:block" />
             three decades of computer <br className="hidden md:block" />
