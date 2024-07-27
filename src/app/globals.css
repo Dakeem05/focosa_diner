@@ -4,6 +4,7 @@
 
 body {
   background: linear-gradient(99.69deg, #0F1141 1.35%, #272CA7 139.25%);
+  color: white;
 }
 
 @layer components {

@@ -3,7 +3,7 @@ import React from "react";
 
 export default function IntroCard() {
   return (
-    <section className="mb-40">
+    <section className="md:mb-40 mb-20">
       <div className="intro-card-bg rounded-3xl overflow-hidden">
         <div className="md:px-24 px-11 pt-11 md:pt-24">
           <p className="text-3xl md:text-5xl">

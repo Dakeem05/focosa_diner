@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <Wrapper>
       <header>
-        <div className="flex justify-between py-14">
+        <div className="flex justify-between py-7 md:py-14">
           <div className="">
             <Image
               src="/assets/logo.svg"

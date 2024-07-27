@@ -8,7 +8,7 @@ import { frequentQuestions } from "@/lib/constants";
 
 export default function FAQs() {
   return (
-    <section className="mb-40">
+    <section className="md:mb-40 mb-20">
       <div className="p-[1px] info-card-border overflow-hidden">
         <div className="bg-[#191D6C] rounded-[21.5px] overflow-hidden">
           <div className="card-bg pt-10 md:pt-28 w-full rounded-3xl overflow-hidden">

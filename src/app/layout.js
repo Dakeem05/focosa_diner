@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
           content="You are invited to the 'Decoding The Future' event organized by FACOSA Uniuyo."
         />
         {/* <link rel="icon" type="image/x-icon" href="@/public/favicon.ico" /> */}
-        <link rel="shortcut icon" href="/assets/icon.svg" type="image/x-icon" />
+        {/* <link rel="icon" href="/assets/icon.svg" type="image/x-icon" /> */}
         <title>Decoding The Future</title>
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://decodingthefuture.xyz" />
@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body
-        className={`${xeroda.variable} ${montserrat.className} font-xeroda text-white`}
+        className={`${xeroda.variable} ${montserrat.className} font-xeroda !text-white`}
       >
         <Header />
         {children}

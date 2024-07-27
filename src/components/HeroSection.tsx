@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="mb-40">
+    <section className="md:mb-40 mb-20">
       <div className="flex gap-[60px] md:gap-0 flex-col md:flex-row items-center justify-between">
         <div className="">
           <h1 className="text-5xl md:text-7xl mb-3">

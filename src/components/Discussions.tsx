@@ -71,7 +71,7 @@ export default function Discussions() {
         </div>
 
         <div className="w-full mt-16 flex items-center justify-center">
-          <button className="text-[#0057FF] w-max mx-auto text-2xl bg-white rounded-full py-5 px-14">
+          <button className="text-[#0057FF] w-max mx-auto text-sm md:text-2xl bg-white rounded-full py-3 px-4 md:py-5 md:px-14">
             Register Now
           </button>
         </div>

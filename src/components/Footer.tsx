@@ -32,7 +32,7 @@ export default function Footer() {
               <p>WhatsApp: +2348134617507</p>
               <p>Telegram: @iMasterJoJo</p>
             </div>
-            <div className="flex-1">
+            <div className="flex-1 hidden md:inline-flex">
               <Image
                 src="/assets/icon.svg"
                 alt="Icon"

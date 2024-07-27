@@ -1,6 +1,6 @@
 export default function Sponsorships() {
   return (
-    <section className="mb-40">
+    <section className="md:mb-40 mb-20">
       <div className="p-[1px] info-card-border overflow-hidden">
         <div className="bg-[#191D6C] rounded-[21.5px] overflow-hidden">
           <div className="card-bg md:py-28 py-10 px-8 md:px-20 w-full rounded-3xl overflow-hidden">
