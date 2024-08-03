@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Discussions() {
@@ -71,9 +72,11 @@ export default function Discussions() {
         </div>
 
         <div className="w-full mt-16 flex items-center justify-center">
+        <Link href="https://lu.ma/vpwxwhrz" target="_blank" rel="noreferrer">
           <button className="text-[#0057FF] w-max mx-auto text-sm md:text-2xl bg-white rounded-full py-3 px-4 md:py-5 md:px-14">
             Register Now
           </button>
+        </Link>
         </div>
       </div>
     </section>

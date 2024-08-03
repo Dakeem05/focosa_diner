@@ -38,7 +38,7 @@ export default function FAQs() {
                   How do I register for the event?
                 </AccordionTrigger>
                 <AccordionContent className="md:text-xl text-sm md:py-7 py-3 px-8 md:pl-20 md:pr-32">
-                  Visit the <Link href="" target="_blank">registration page</Link>
+                  Visit the registration page <Link href="https://lu.ma/vpwxwhrz" target="_blank" rel="noreferrer" className="underline">here</Link>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

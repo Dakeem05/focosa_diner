@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Wrapper from "./Wrapper";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -24,9 +25,11 @@ export default function Header() {
             />
           </div>
           <div className="">
-            <button className="text-[#0057FF] text-sm md:text-2xl bg-white rounded-full py-3 px-4 md:py-5 md:px-6">
-              Register for Event
-            </button>
+            <Link href="https://lu.ma/vpwxwhrz" target="_blank" rel="noreferrer">
+              <button className="text-[#0057FF] text-sm md:text-2xl bg-white rounded-full py-3 px-4 md:py-5 md:px-6">
+                Register for Event
+              </button>
+            </Link>
           </div>
         </div>
       </header>
