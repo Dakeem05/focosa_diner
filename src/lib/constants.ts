@@ -19,9 +19,4 @@ export const frequentQuestions = [
         trigger: "Can I attend if I’m not local?",
         content: "Yes, everyone is welcome to attend."
     },
-    {
-        value: "item-5",
-        trigger: "How do I register for the event?",
-        content: "Visit the registration page (link to be provided)"
-    },
 ]
