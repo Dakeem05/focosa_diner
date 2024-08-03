@@ -2,12 +2,12 @@ export const frequentQuestions = [
     {
         value: "item-1",
         trigger: "When is Decoding the Future taking place?",
-        content: "2nd August, 2024."
+        content: "16th August, 2024."
     },
     {
         value: "item-2",
         trigger: "Where is the event being held?",
-        content: "Sheergrace Arena, Nsikak Eduok Avenue, Uyo."
+        content: "Vinpy Event Center, Udo Udoma Avenue, Uyo."
     },
     {
         value: "item-3",
